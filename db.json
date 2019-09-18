@@ -1,0 +1,143 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "88977",
+      "colour": "white",
+      "screensize": "974\""
+    },
+    {
+      "id": 5,
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "235000",
+      "colour": "null",
+      "screensize": "17\""
+    },
+    {
+      "id": 6,
+      "name": "scanner",
+      "brand": "Hp",
+      "price": "32000",
+      "colour": "black",
+      "screensize": "-"
+    },
+    {
+      "id": 9,
+      "name": "HDD",
+      "brand": "Transcend",
+      "price": 20000,
+      "colour": "blue",
+      "screensize": "-"
+    },
+    {
+      "name": "Mouse",
+      "brand": "Logitech",
+      "price": "5500",
+      "colour": "black",
+      "screensize": "-",
+      "id": 10
+    },
+    {
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "160000",
+      "colour": "white",
+      "screensize": "14\"",
+      "id": 24
+    },
+    {
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "160000878",
+      "colour": "white",
+      "screensize": "14\"",
+      "id": 25
+    },
+    {
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "7440",
+      "colour": "green",
+      "screensize": "14\"",
+      "id": 26
+    },
+    {
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "3333333",
+      "colour": "white",
+      "screensize": "14\"",
+      "id": 28
+    },
+    {
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "160001",
+      "colour": "white",
+      "screensize": "14\"",
+      "id": 29
+    },
+    {
+      "name": "macbook pro",
+      "brand": "Apple",
+      "price": "511112",
+      "colour": "white",
+      "screensize": "14\"",
+      "id": 31
+    },
+    {
+      "name": "",
+      "brand": "",
+      "price": "NaN",
+      "colour": "",
+      "screensize": "",
+      "id": 32
+    },
+    {
+      "name": "sds",
+      "brand": "sdd",
+      "price": "NaN",
+      "colour": "sdd",
+      "screensize": "sd",
+      "id": 33
+    },
+    {
+      "name": "Desktop",
+      "brand": "Dell",
+      "price": "50000",
+      "colour": "black",
+      "screensize": "14\"",
+      "id": 34
+    }
+  ],
+  "warehouse": [
+    {
+      "location id": 2113,
+      "state": "Port Harcourt",
+      "manager in charge": "Prince Dickson"
+    },
+    {
+      "location id": 2114,
+      "state": "Lagos",
+      "manager in charge": "Tracy James"
+    },
+    {
+      "location id": 2115,
+      "state": "Abuja",
+      "manager in charge": "Cynthia Iboro"
+    }
+  ],
+  "stock": [
+    {
+      "name": "apple macbook pro",
+      "quantity": 3
+    },
+    {
+      "name": "Transcend HDD",
+      "quantity": 2
+    }
+  ]
+}

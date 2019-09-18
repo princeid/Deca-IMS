@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product and Inventory Management System</title>
+</head>
+<body>
+<section class="header container-fluid">
+    <h1 class="container-fluid">Product and Inventory Management System</h1><br>
+</section>
+    
+<section class="form-section">
+    <form id='form' action="source.js">
+            <div class="row container-fluid  form-fields">
+                <div class="col-md-2">
+                    <input type="text" name="name" id="name" class="form-control" placeholder="name" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" name="brand" id="brand" class="form-control" placeholder="brand" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" name="price" id="price" class="form-control" placeholder="price" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" name="colour" id="colour" class="form-control" placeholder="colour" required>
+                </div>
+                <div class="col-md-2">
+                    <input type="text" name="screensize" id="screensize" class="form-control" placeholder="screen size">
+                </div>
+                <div>
+                    <button id="save" type="submit" class="btn btn-primary">Save</button>
+                </div>
+                
+            </div>
+    </form>
+    
+    <div>
+            <button id="update" type="submit" class="btn btn-primary">Update</button>
+    </div>
+<br>
+            <div class="row form-fields container-fluid">
+                <div class="col">
+                    <input type="search" id="search-text" class="form-control search-field" placeholder="search item">
+                </div>
+                <button id="search" type="submit" class="btn btn-light">Search</button>
+            </div>
+</section>
+    <br><br>
+
+        <div class="panel panel-default container">
+              
+                <!-- Table -->
+                <table id="table_items" class="table table-striped table-bordered">
+                        <thead>
+                                <th style="width: 100px">S/N</th>
+                                <th style="width: 100px">Name</th>
+                                <th style="width: 100px">Brand</th>
+                                <th style="width: 100px">Price</th>
+                                <th style="width: 100px">Colour</th>
+                                <th style="width: 100px">Screen Size</th>
+                                <th style="width: 100px">Actions</th>
+                        </thead>
+                            <tbody id='tbody'>
+                
+                            </tbody>
+                </table>
+              </div>
+
+    <section class="footer container-fluid">
+        <p></p>
+    </section>
+</body>
+<script src="../js/source.js"></script>
+</html>

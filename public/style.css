@@ -1,0 +1,56 @@
+h1 {
+    position: relative;
+    text-align: center;
+    top: 12px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.header {
+    padding: 30px;
+    background-color: rgb(34, 146, 146);
+}
+.form-section{
+    padding-top: 40px;
+}
+.footer{
+    height: 70px;
+    background-color: rgb(25, 41, 41);
+}
+.form-fields{
+    position: relative;
+    width: 95%;
+    left: 120px;
+
+}
+.search-field{
+    width: 85%;
+}
+#search{
+    position: relative;
+    right: 150px;
+}
+.delete-btn{
+    margin: 10px;
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: rgb(214, 233, 233);
+ }
+
+ #update{
+     position: relative;
+     top: -38px;
+     left: 1160px;
+ }
+ table.table-bordered{
+    border:1px solid rgb(121, 163, 163);
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid rgb(121, 163, 163);
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid rgb(121, 163, 163);
+}
