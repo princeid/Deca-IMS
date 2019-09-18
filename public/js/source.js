@@ -160,7 +160,7 @@ location.reload(true);
                 $("#table_items tbody tr").remove();
 
                 for(let i = 0; i < event.length; i++){
-                    if(event[i].name == $('#search-text').val() || event[i].name == $('#search-text').val()){
+                    if(event[i].name == $('#search-text').val() || event[i].brand == $('#search-text').val()){
                       //event.preventDefault()
                       
                       //alert('hello it matched')
