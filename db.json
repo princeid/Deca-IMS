@@ -4,9 +4,9 @@
       "id": 3,
       "name": "macbook pro",
       "brand": "Apple",
-      "price": "80000",
+      "price": "120000",
       "colour": "white",
-      "screensize": "974\""
+      "screensize": "94\""
     },
     {
       "id": 5,
@@ -51,26 +51,10 @@
     {
       "name": "macbook pro",
       "brand": "Apple",
-      "price": "160000878",
-      "colour": "elephant blue",
-      "screensize": "14\"",
-      "id": 25
-    },
-    {
-      "name": "macbook pro",
-      "brand": "Apple",
       "price": "7440",
       "colour": "green",
       "screensize": "14\"",
       "id": 26
-    },
-    {
-      "name": "macbook pro",
-      "brand": "Apple",
-      "price": "3333333",
-      "colour": "white",
-      "screensize": "14\"",
-      "id": 28
     },
     {
       "name": "macbook pro",
@@ -81,36 +65,12 @@
       "id": 29
     },
     {
-      "name": "macbook pro",
-      "brand": "Apple",
-      "price": "511110",
-      "colour": "tortoise brown",
-      "screensize": "14\"",
-      "id": 31
-    },
-    {
       "name": "Desktop",
       "brand": "Dell",
       "price": "50000",
       "colour": "black",
       "screensize": "14\"",
       "id": 34
-    },
-    {
-      "name": "ffas",
-      "brand": "afasa",
-      "price": "NaN",
-      "colour": "sfasf",
-      "screensize": "",
-      "id": 35
-    },
-    {
-      "name": "WE",
-      "brand": "WW",
-      "price": "NaN",
-      "colour": "WW",
-      "screensize": "",
-      "id": 36
     }
   ],
   "warehouse": [
@@ -138,6 +98,16 @@
     {
       "name": "Transcend HDD",
       "quantity": 2
+    }
+  ],
+  "adminaccounts": [
+    {
+      "username": "prince",
+      "password": "deca123"
+    },
+    {
+      "username": "dickson",
+      "password": "deca123"
     }
   ]
 }

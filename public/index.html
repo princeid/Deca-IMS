@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        function myFunction(){
+          if (window.localStorage.getItem("username") != ""){
+          document.getElementById('sign-in').style.visibility = 'hidden';
+        }
+        if (window.localStorage.getItem("username") == "") {
+          document.getElementById('signout').style.visibility = 'hidden';
+        }
+    }
+          
+          
+        
+      </script>
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
@@ -9,9 +22,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Product and Inventory Management System</title>
+    <title>Rhule Technologies</title>
 </head>
-<body>
+<body onload="myFunction()">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">
@@ -25,75 +38,103 @@
                   <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
+                      <a id="manage" class="nav-link" href="#">Manage Products</a>
                     </li>
                   </ul>
                 </div>
               </nav>
 
 <section class="header container-fluid">
-    <h1 class="container-fluid">Product and Inventory Management System</h1><br>
+    <h1 id="head-text" class="container-fluid">Welcome</h1><br>
+    <button type="submit" id="sign-in" class="sign-in-btn login-button">LOGIN</button>
+    <button type="submit" id="signout" class="sign-out-btn login-button">LOGOUT</button>
 </section>
 
-    
-
-<section class="form-section">
-    <button id='create' type="button" class="btn btn-secondary ">Add New Product</button>
-    <form id='form' action="source.js" class="hide-form">
-            <div class="row container-fluid  form-fields">
-                <div class="col-md-2">
-                    <input type="text" name="name" id="name" class="form-control" placeholder="name" required>
-                </div>
-                <div class="col-md-2">
-                    <input type="text" name="brand" id="brand" class="form-control" placeholder="brand" required>
-                </div>
-                <div class="col-md-2">
-                    <input type="text" name="price" id="price" class="form-control" placeholder="price" required>
-                </div>
-                <div class="col-md-2">
-                    <input type="text" name="colour" id="colour" class="form-control" placeholder="colour" required>
-                </div>
-                <div class="col-md-2">
-                    <input type="text" name="screensize" id="screensize" class="form-control" placeholder="screen size">
-                </div>
-                <div>
-                    <button id="save" type="submit" class="btn btn-primary">Save</button>
-                </div>
-                
-            </div>
-    </form>
-    
-    <div>
-            <button id="update" type="submit" class="btn btn-primary">Update</button>
+<section id="one" class="wrapper style2">
+    <div class="inner">
+      <div class="box">
+        <div class="image fit">
+          <img src="img/pic01.jpg" alt="" />
+        </div>
+        <div class="content">
+          <header class="align-center">
+            <h2>All your gadgets in one place</h2>
+            <p>Our products are shipped directly from the manufacturers.</p>
+          </header>
+          <hr />
+          <p> 
+              Rhule Technologies Limited is a major and licensed distributor of
+              Hp, Dell, Apple, and Toshiba computers. We also sell original 
+              Speakers, Keyboards, Mouse, Scanners, and Printers. 
+          </p>
+          <p>Vivamus fermentum nibh vel pharetra blandit. Cras a purus urna. Sed et 
+            libero ex. Orci varius natoque penatibus et magnis dis parturient montes
+            , nascetur ridiculus mus. Suspendisse id hendrerit felis. Nulla viverra 
+            tempor dui at congue. Pellentesque quis nulla ornare, congue nisi id, 
+            finibus nulla. Aliquam sit amet hendrerit purus. Donec libero massa, 
+            posuere fermentum eros sit amet, maximus fringilla augue. Maecenas at 
+            rhoncus lorem. Vivamus ultricies consequat est, efficitur convallis 
+            libero. Vivamus rutrum semper mauris, vitae consequat eros tempor ac. 
+            Pellentesque et ornare sapien</p>
+        </div>
+      </div>
     </div>
-<br>
-            <div class="row form-fields container-fluid">
-                <div class="col">
-                    <input type="search" id="search-text" class="form-control search-field" placeholder="Enter product name or brand to search">
-                </div>
-                <button id="search" type="submit" class="btn btn-light">Search</button>
-            </div>
-</section>
-    <br><br>
+  </section>
 
-        <div class="panel panel-default container">
-              
-                <!-- Table -->
-                <table id="table_items" class="table table-striped table-bordered">
-                        <thead>
-                                <th style="width: 100px">S/N</th>
-                                <th style="width: 100px">Name</th>
-                                <th style="width: 100px">Brand</th>
-                                <th style="width: 100px">Price</th>
-                                <th style="width: 100px">Colour</th>
-                                <th style="width: 100px">Screen Size</th>
-                                <th style="width: 100px">Actions</th>
-                        </thead>
-                            <tbody id='tbody'>
-                
-                            </tbody>
-                </table>
+  <section id="three" class="wrapper style2">
+      <div class="inner">
+        <div class="grid-style">
+
+          <div>
+            <div class="box">
+              <div class="image fit">
+                <img src="img/img02.jpg" alt="" />
               </div>
+              <div class="content">
+                <header class="align-center">
+                  <h2>HP Pavilion 15 8th Gen <span id="new">NEW</span></h2>
+                  <p>Intel Core I5 1TB HDD 12GB RAM Win10</p>
+                </header>
+                <hr />
+                <p> 
+                  Specifications: Product number = 287878UA
+                  Product name= HP Pavilion - 15
+                  Microprocessor= Intel® Core™ i5-8250U (1.6 GHz base frequency, up to 3.1 GHz with Intel® Turbo Boost Technology, 3 MB cache, 2 cores)
+                  Memory, standard= 12 GB DDR4-2133 SDRAM (1 x 4 GB,1 x 8 GB) 
+                  Video graphics = Intel® HD Graphics 620 (up to 6.06 GB)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="box">
+              <div class="image fit">
+                <img src="img/img03.jpg" alt="" />
+              </div>
+              <div class="content">
+                <header class="align-center">
+                  <h2>Windows 10 Laptops + 32GB</h2>
+                  <p>New Stock at affordable prices</p>
+                </header>
+                <hr />
+                <p> 
+                  Brands: Hp, Macbook, Toshiba, Dell
+                  Minimum Specifications: Microprocessor= Intel® Core™ i5-8250U (1.6 GHz base frequency, up to 3.1 GHz with Intel® Turbo Boost Technology, 3 MB cache, 2 cores)
+                  Memory, standard= 12 GB DDR4-2133 SDRAM (1 x 4 GB,1 x 8 GB) 
+                  Video graphics = Intel® HD Graphics 620
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+
 
     <footer class="footer container-fluid">
             <small class="year">&copy; 2019, Rhule Technologies by Dickson Prince</small>
