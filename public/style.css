@@ -15,6 +15,11 @@ h1 {
 .footer{
     height: 70px;
     background-color: rgb(25, 41, 41);
+    color: aliceblue;
+}
+.year{
+    position: relative;
+    top: 20px;
 }
 .form-fields{
     position: relative;
@@ -53,4 +58,9 @@ table.table-bordered > thead > tr > th{
 }
 table.table-bordered > tbody > tr > td{
     border:1px solid rgb(121, 163, 163);
+}
+#create{
+    position: relative;
+    left: 135px;
+    top: -15px;
 }

@@ -3,6 +3,8 @@
 <head>
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +12,34 @@
     <title>Product and Inventory Management System</title>
 </head>
 <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                        <img src="/img/logo.png" width="150" height="30" class="d-inline-block align-top" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
 <section class="header container-fluid">
     <h1 class="container-fluid">Product and Inventory Management System</h1><br>
 </section>
+
     
+
 <section class="form-section">
-    <form id='form' action="source.js">
+    <button id='create' type="button" class="btn btn-secondary ">Add New Product</button>
+    <form id='form' action="source.js" class="hide-form">
             <div class="row container-fluid  form-fields">
                 <div class="col-md-2">
                     <input type="text" name="name" id="name" class="form-control" placeholder="name" required>
@@ -71,9 +95,9 @@
                 </table>
               </div>
 
-    <section class="footer container-fluid">
-        <p></p>
-    </section>
+    <footer class="footer container-fluid">
+            <small class="year">&copy; 2019, Rhule Technologies by Dickson Prince</small>
+    </footer>
 </body>
 <script src="../js/source.js"></script>
 </html>

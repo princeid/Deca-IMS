@@ -4,7 +4,7 @@
       "id": 3,
       "name": "macbook pro",
       "brand": "Apple",
-      "price": "88977",
+      "price": "80000",
       "colour": "white",
       "screensize": "974\""
     },
@@ -52,7 +52,7 @@
       "name": "macbook pro",
       "brand": "Apple",
       "price": "160000878",
-      "colour": "white",
+      "colour": "elephant blue",
       "screensize": "14\"",
       "id": 25
     },
@@ -83,26 +83,10 @@
     {
       "name": "macbook pro",
       "brand": "Apple",
-      "price": "511112",
-      "colour": "white",
+      "price": "511110",
+      "colour": "tortoise brown",
       "screensize": "14\"",
       "id": 31
-    },
-    {
-      "name": "",
-      "brand": "",
-      "price": "NaN",
-      "colour": "",
-      "screensize": "",
-      "id": 32
-    },
-    {
-      "name": "sds",
-      "brand": "sdd",
-      "price": "NaN",
-      "colour": "sdd",
-      "screensize": "sd",
-      "id": 33
     },
     {
       "name": "Desktop",
@@ -111,6 +95,22 @@
       "colour": "black",
       "screensize": "14\"",
       "id": 34
+    },
+    {
+      "name": "ffas",
+      "brand": "afasa",
+      "price": "NaN",
+      "colour": "sfasf",
+      "screensize": "",
+      "id": 35
+    },
+    {
+      "name": "WE",
+      "brand": "WW",
+      "price": "NaN",
+      "colour": "WW",
+      "screensize": "",
+      "id": 36
     }
   ],
   "warehouse": [
