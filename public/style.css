@@ -1,3 +1,4 @@
+
 h1 {
     position: relative;
     text-align: center;
@@ -44,11 +45,7 @@ h1 {
    background-color: rgb(214, 233, 233);
  }
 
- #update{
-     position: relative;
-     top: -38px;
-     left: 1160px;
- }
+
  table.table-bordered{
     border:1px solid rgb(121, 163, 163);
     margin-top:20px;
@@ -296,4 +293,112 @@ html {
     position: relative;
     top: 40px;
     font-size: 1.5em !important;
+}
+
+#create{
+    background-color: #E37F00;
+    border: 0;
+}
+th {
+    font-size: 17px !important;
+    font-weight: bolder !important;
+}
+
+.sub-text {
+    color: #E37F00 !important;
+}
+
+.top-buttons{
+    display: inline;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    #update{
+        position: relative;
+        top: 0px !important;
+        right: -340px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #update{
+        position: relative;
+        top: 0px !important;
+        right: -340px;
+    }
+} 
+
+@media only screen and (min-width: 1300px) {
+    #update{
+        position: relative;
+        top: -65px !important;
+        left: 1160px;
+    }
+    #search{
+        position: relative;
+        right: 150px;
+        width: 130px;
+    }
+    #save {
+        position: relative;
+        top: 4px;
+        
+    }
+}
+
+@media screen and (min-width: 1220px) and (max-width:1299px) {
+    #update{
+        position: relative;
+        top: -66px !important;
+        left: 1080px;
+    }
+    #search{
+        position: relative;
+        right: 120px;
+        width: 130px;
+    }
+    #save {
+        position: relative;
+        top: 4px;
+        
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width:1219px){
+    #update{
+        position: relative;
+        top: -66px !important;
+        left: 1040px;
+    }
+    #search{
+        position: relative;
+        right: 80px;
+        width: 130px;
+    }
+    #save {
+        position: relative;
+        top: 4px;
+        
+    }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width:1150px){
+    #update{
+        position: relative;
+        top: -66px !important;
+        left: 25px;
+    }
+    #search{
+        position: relative;
+        right: 80px;
+        width: 130px;
+    }
+    #save {
+        position: relative;
+        top: 4px;
+        
+    }
+
 }
